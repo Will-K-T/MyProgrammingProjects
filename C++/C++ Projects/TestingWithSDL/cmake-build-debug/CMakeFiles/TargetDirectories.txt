@@ -1,0 +1,3 @@
+C:/Users/thompson_898340/Documents/thisneedstowork/C++ Projects/TestingWithSDL/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/thompson_898340/Documents/thisneedstowork/C++ Projects/TestingWithSDL/cmake-build-debug/CMakeFiles/TestingWithSDL.dir
+C:/Users/thompson_898340/Documents/thisneedstowork/C++ Projects/TestingWithSDL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="953d4e22-2465-4a63-8f2a-fd085b5891d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CSUILPractice/Speedrub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CSUILPractice/Speedrub/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MazeSolver/breadth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MazeSolver/breadth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MazeSolver/depth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MazeSolver/depth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MazeSolver/maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/../MazeSolver/maze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fireSim/out/production/fireSim/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../fireSim/out/production/fireSim/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fireSim/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fireSim/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fractals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../fractals/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectId" id="1Rw1aSqZNZDzZ0PYoxcNq7ajP1U" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projects/BloodSugars" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="Turtles" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="953d4e22-2465-4a63-8f2a-fd085b5891d8" name="Default Changelist" comment="" />
+      <created>1570563408560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570563408560</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

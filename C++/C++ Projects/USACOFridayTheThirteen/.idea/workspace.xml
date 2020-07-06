@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb723f1b-6348-46ac-b133-055fecb26281" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../USACOYourRideIsHere/cmake-build-debug/ride.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/Text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/Text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/CMakeFiles/WorkingWithFIles.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/CMakeFiles/WorkingWithFIles.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/CMakeFiles/WorkingWithFIles.dir/vc140.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/CMakeFiles/WorkingWithFIles.dir/vc140.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/WorkingWithFIles.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/WorkingWithFIles.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/WorkingWithFIles.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/WorkingWithFIles.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/WorkingWithFIles.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/cmake-build-debug/WorkingWithFIles.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WorkingWithFIles/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../WorkingWithFIles/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\thompson_898340\Documents\thisneedstowork\C++ Projects\USACOFridayTheThirteen\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ur9MvAduQDeOxP9d4aP0i36cQx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../USACOBreakTheNecklace" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb723f1b-6348-46ac-b133-055fecb26281" name="Default Changelist" comment="" />
+      <created>1576103802202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576103802202</updated>
+      <workItem from="1576103808534" duration="746000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1576162253544">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576162253544" />
+  </component>
+</project>

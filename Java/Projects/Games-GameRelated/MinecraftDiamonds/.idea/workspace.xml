@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34cd4a07-6b96-49d7-8d40-a81f89220ee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../CSUILPractice/Speedrub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CSUILPractice/Speedrub/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/breadth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/breadth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/depth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/depth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/maze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/out/production/MazeSolver/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/out/production/MazeSolver/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/fireSim/out/production/fireSim/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fireSim/out/production/fireSim/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/fireSim/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fireSim/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/fractals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fractals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/fractals/out/production/Fractals/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fractals/out/production/Fractals/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../InClass/fractals/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fractals/src/Runner.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectId" id="1QO2htp0s05SfQO5qTCWYIHYrb5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568383519042" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GSISMap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <module name="MinecraftDiamonds" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Runner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34cd4a07-6b96-49d7-8d40-a81f89220ee6" name="Default Changelist" comment="" />
+      <created>1567627444237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567627444237</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
