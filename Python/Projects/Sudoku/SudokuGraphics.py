@@ -17,15 +17,24 @@ def draw_lines(screen):
                     pygame.draw.line(screen, (0, 0, 0), (col * 60, 0), (col * 60, 540))
 
 
-def find_clicked_node(grid, pos, clicked_grid):
+def find_clicked_node(grid, pos, clicked_grid, orig_board):
+    clicked = None
+    orig_clicked = None
     for row in range(9):
         for col in range(9):
             n = grid[row][col]
-            if (pos[0] < n.row < pos[0]+60) and (pos[1] < n.col < pos[1]+60):
+            if ((pos[0] < n.row < pos[0]+60) and (pos[1] < n.col < pos[1]+60)) and (orig_board[col][row] == 0):
                 clicked_grid[row][col] = True
-                return row, col
+                clicked = row, col
             else:
+                if clicked_grid[row][col]:
+                    orig_clicked = row, col
                 clicked_grid[row][col] = False
+    if (orig_clicked is not None) and (clicked is None):
+        clicked_grid[orig_clicked[0]][orig_clicked[1]] = True
+        return None
+    else:
+        return clicked
 
 
 def update_grid(screen, new_node, board, myfont):
@@ -51,17 +60,21 @@ class SudokuGraphics:
 
         screen = pygame.display.set_mode((540, 540))
 
-        board = sudoku.board
+        orig_board = sudoku.board
+
+        solve_board = orig_board
 
         grid = [[0 for i in range(9)] for j in range(9)]
 
-        clicked_grid = [[0 for i in range(9)] for j in range(9)]
+        clicked_grid = [[False for i in range(9)] for j in range(9)]
+
+        clicked = None
 
         for row in range(9):
             for col in range(9):
                 pygame.draw.rect(screen, (255, 255, 255), (row * 60, col * 60, 60, 60))
-                if board[row][col] != 0:
-                    textsurface = myfont.render(str(board[row][col]), True, (0, 0, 0))
+                if orig_board[row][col] != 0:
+                    textsurface = myfont.render(str(orig_board[row][col]), True, (0, 0, 0))
                     screen.blit(textsurface, (row*60+23, col*60+15))
                 grid[row][col] = Node(col*60+60, row*60+60)
 
@@ -79,10 +92,13 @@ class SudokuGraphics:
                         print("hello")
 
             if pygame.mouse.get_pressed()[0] == 1:
-                clicked = find_clicked_node(grid, pygame.mouse.get_pos(), clicked_grid)
-                if clicked is not None:
-                    update_grid(screen, clicked, board, myfont)
+                clicked = find_clicked_node(grid, pygame.mouse.get_pos(), clicked_grid, orig_board)
+                if clicked is not None and orig_board[clicked[1]][clicked[0]] == 0:
+                    update_grid(screen, clicked, solve_board, myfont)
                     draw_lines(screen)
+                for i in range(9):
+                    print(clicked_grid[i])
+                print()
 
             pygame.display.update()
 
