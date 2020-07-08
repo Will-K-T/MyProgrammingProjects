@@ -1,5 +1,6 @@
 # Grants this class access to the Board class
 from Board import Board
+from SudokuGraphics import SudokuGraphics
 
 
 def print_board(board):
@@ -14,6 +15,11 @@ def print_board(board):
 
 
 def solve_soduku(sudoku):
+    """
+    Solves the board sudoku
+    :param sudoku: the board that needs to be solved
+    :return:
+    """
     # Creates a copy of the sudoku board so that we don't mess up the original board
     solved_board = sudoku.board
 
@@ -86,6 +92,7 @@ def solve_soduku(sudoku):
 
 
 def main():
+
     # Opens the puzzle file
     file = open("Board.txt", "r")
 
@@ -104,6 +111,8 @@ def main():
     for p in range(num_of_puzzles):
         # Creates a new Board object
         sudoku = Board((puzzle_count*9)+1+puzzle_count)
+
+        screen = SudokuGraphics(sudoku)
 
         # Increases the solved puzzle count by 1
         puzzle_count += 1
