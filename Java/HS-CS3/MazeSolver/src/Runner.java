@@ -5,7 +5,7 @@ public class Runner {
         //numberOfBoxes * sqrt(gridSize) + ((numberOfBoxes+1))
         //111, 100
         Maze test;
-        Picture pic = new Picture(1001, 1001);
+        Picture pic = new Picture(501, 501);
         while(true) {
             test = new Maze(1001, 1001, 16, pic);
 

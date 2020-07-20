@@ -1,6 +1,7 @@
 # Grants this class access to the Board class
 from Board import Board
 from SudokuGraphics import SudokuGraphics
+from copy import deepcopy
 
 
 def print_board(board):
@@ -21,7 +22,7 @@ def solve_soduku(sudoku):
     :return:
     """
     # Creates a copy of the sudoku board so that we don't mess up the original board
-    solved_board = sudoku.board
+    solved_board = deepcopy(sudoku.board)
 
     # Stores the index of the next number that should be tried (the index will be used with the possible_nums list)
     try_new_nums = [[0] * 9 for y in range(9)]
@@ -79,7 +80,7 @@ def solve_soduku(sudoku):
 
         # if this is reached, the puzzle has been solved and gets printed
         else:
-            print_board(solved_board)
+            # print_board(solved_board)
             break
 
     # if this is reached, the puzzle is not solvable
@@ -88,7 +89,8 @@ def solve_soduku(sudoku):
         print("Puzzle is not solvable!")
     else:
         print()
-        print("Puzzle solved!")
+        # print("Puzzle solved!")
+    return solved_board
 
 
 def main():
@@ -112,13 +114,14 @@ def main():
         # Creates a new Board object
         sudoku = Board((puzzle_count*9)+1+puzzle_count)
 
-        screen = SudokuGraphics(sudoku)
+        # Solves the puzzle
+        solved = solve_soduku(sudoku)
+
+        screen = SudokuGraphics(sudoku, solved)
 
         # Increases the solved puzzle count by 1
         puzzle_count += 1
 
-        # Solves the puzzle
-        solve_soduku(sudoku)
 
 
 if __name__ == "__main__":

@@ -6,3 +6,5 @@ class Node:
         self.col = col
         self.clicked = False
 
+    def __str__(self):
+        return str(self.row)+" "+str(self.col)+" "+str(self.clicked)
