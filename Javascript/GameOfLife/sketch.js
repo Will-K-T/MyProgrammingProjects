@@ -1,3 +1,5 @@
+/// <reference path="./Libraries/p5Intellisense/p5.global-mode.d.ts" />
+
 var nodes = [];
 
 let squareSize = 16;
