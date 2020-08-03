@@ -2,13 +2,13 @@
 
 var nodes = [];
 
-let squareSize = 16;
+let squareSize = 4;
 
 let w = 0; let h = 0;
 
 function preload(){
-  w = 2560;
-  h = 1440;
+  w = 400;
+  h = 400;
   
   for(let i=0; i<h/squareSize; i++){
     nodes[i] = [];

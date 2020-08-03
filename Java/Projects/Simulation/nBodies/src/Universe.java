@@ -21,7 +21,9 @@ import javafx.scene.transform.Transform;
 import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
 
-//File format: (double)mass (double)radius (double)startingX (double)startingY (double)startingZ (double)startingXV (double)startingYV (double)startingZV
+// BlackHole 20.0e30 300e5 0 5.000000e12 0 0 0 0
+
+// File format: (double)mass (double)radius (double)startingX (double)startingY (double)startingZ (double)startingXV (double)startingYV (double)startingZV
 
 /* has everything to size
 Sun 1.989e30 696.34e5 0 0 0 5.89e9 0 0
