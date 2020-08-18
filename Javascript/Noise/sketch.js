@@ -25,7 +25,7 @@ let prevSliderVal;
 
 let numOfParticles = 1000;
 
-let inc = .01;
+let inc = 0.1;
 
 function setup() {
   createCanvas(400, 400);
@@ -34,34 +34,34 @@ function setup() {
   cols = floor(width / sq);
   rows = floor(height / sq);
 
-  fr = createP('');
+  fr = createP("");
 
   changeXOff = random();
   changeYOff = random();
   changeZOff = random();
 
-  slider = createSlider(0, .004, .001, .0001);
+  slider = createSlider(0, 0.004, 0.001, 0.0001);
   prevSliderVal = slider.value();
 
-  oppSlider = createSlider(0, 255, 5, 1);
-  sizeSlider = createSlider(1, 100, 5, 1);
-  particleSize = sizeSlider.value();
+  //oppSlider = createSlider(0, 255, 5, 1);
+  //sizeSlider = createSlider(1, 100, 5, 1);
+  particleSize = 1;
 
   particles = [];
-  for(let i=0; i<numOfParticles; i++){
+  for (let i = 0; i < numOfParticles; i++) {
     particles[i] = new Particle();
   }
 
   vectors = [];
-  for(let i=0; i<rows; i++){
+  for (let i = 0; i < rows; i++) {
     vectors[i] = [];
   }
 
   noStroke();
 }
 
-function draw(){
-  // background(255, 255, 255);
+function draw() {
+  background(255, 255, 255);
 
   // noiseOneD(changeXOff);
 
@@ -74,42 +74,43 @@ function draw(){
   flowField(changeXOff, changeYOff);
 
   changeXOff += slider.value();
+  // changeXOff += 1;
   changeYOff += slider.value();
   changeZOff += slider.value();
 
   fr.html(floor(frameRate()));
-  if(slider.value() != prevSliderVal){
+  if (slider.value() != prevSliderVal) {
     prevSliderVal = slider.value();
     background(255, 255, 255);
   }
 
-  oppacity = oppSlider.value();
-  particleSize = sizeSlider.value();
+  // oppacity = oppSlider.value();
+  // particleSize = sizeSlider.value();
 
   // noLoop();
 }
 
-function flowField(startXOff, startYOff){
+function flowField(startXOff, startYOff) {
   let yOff = startYOff;
   stroke(0, 0, 0, 100);
-  for(let i=0; i<rows; i++){
+  for (let i = 0; i < rows; i++) {
     let xOff = startXOff;
-    for(let j=0; j<cols; j++){
-      let ang = noise(xOff, yOff)*TWO_PI*2;
+    for (let j = 0; j < cols; j++) {
+      let ang = noise(xOff, yOff) * TWO_PI * 2;
       vectors[i][j] = p5.Vector.fromAngle(ang);
       vectors[i][j].setMag(weight);
       let v = vectors[i][j];
-      // push();
-      // translate(i*sq, j*sq);
-      // rotate(v.heading());
-      // line(0, 0, sq, 0);
-      // pop();
+      push();
+      translate(i * sq, j * sq);
+      rotate(v.heading());
+      line(0, 0, sq, 0);
+      pop();
       xOff += inc;
     }
     yOff += inc;
   }
 
-  for(let i=0; i<particles.length; i++){
+  for (let i = 0; i < particles.length; i++) {
     let dir = particles[i].closestVector();
     particles[i].update();
     particles[i].display();
@@ -134,55 +135,55 @@ function flowField(startXOff, startYOff){
   // }
 }
 
-function noiseThreeD(startXOff, startYOff, startZOff){
+function noiseThreeD(startXOff, startYOff, startZOff) {
   let xOff = startXOff;
   let yOff = startYOff;
   let zOff = startZOff; // idk yet lol
 
-  for(let i=0; i<height/sq; i++){
-    for(let j=0; j<width/sq; j++){
-      fill(noise(xOff, yOff, zOff)*255);
-      rect(j*sq, i*sq, sq, sq);
-      
+  for (let i = 0; i < height / sq; i++) {
+    for (let j = 0; j < width / sq; j++) {
+      fill(noise(xOff, yOff, zOff) * 255);
+      rect(j * sq, i * sq, sq, sq);
+
       xOff += inc;
     }
     yOff += inc;
   }
 }
 
-function noiseTwoD(startXOff, startYOff){
+function noiseTwoD(startXOff, startYOff) {
   fill(0, 0, 0);
   let yOff = startYOff;
 
-  for(let i=0; i<height/sq; i++){
+  for (let i = 0; i < height / sq; i++) {
     let xOff = startXOff;
-    for(let j=0; j<width/sq; j++){
-      fill(noise(xOff, yOff)*255);
-      rect(j*sq, i*sq, sq, sq);
+    for (let j = 0; j < width / sq; j++) {
+      fill(noise(xOff, yOff) * 255);
+      rect(j * sq, i * sq, sq, sq);
       xOff += inc;
     }
     yOff += inc;
   }
 }
 
-function noiseOneD(startXOff){
+function noiseOneD(startXOff) {
   noFill();
-  stroke(255);
+  stroke(0);
   let xOff = startXOff;
   beginShape();
-  for(let i=0; i<width; i++){
-    vertex(i, noise(xOff)*height);
+  for (let i = 0; i < width; i++) {
+    vertex(i, noise(xOff) * height);
 
     xOff += inc;
   }
   endShape();
 }
 
-function noNoiseRandom(){
+function noNoiseRandom() {
   noFill();
   stroke(255);
   beginShape();
-  for(let i=0; i<width; i++){
+  for (let i = 0; i < width; i++) {
     vertex(i, random(height));
   }
   endShape();
