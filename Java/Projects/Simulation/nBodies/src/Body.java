@@ -15,6 +15,19 @@ public class Body {
     private String name;
     //endregion
 
+    /**
+     * constructor to set up a new body object
+     * @param name name of the body
+     * @param m mass of the body
+     * @param r radius of the body
+     * @param x x pos of the body
+     * @param y y pos of the body
+     * @param z z pos of the body
+     * @param vx initial vel in the x direction
+     * @param vy initial vel in the y direction
+     * @param vz initial vel in the z direction
+     * @param s sphere that is used for graphics
+     */
     public Body(String name, double m, double r, double x, double y, double z, double vx, double vy, double vz, Sphere s){
         this.name = name;
         this.mass = m;
@@ -28,12 +41,19 @@ public class Body {
         setSphereInitPos();
     }
 
+    /**
+     * Sets the graphical sphere to the pos of the body object
+     */
     public void setSphereInitPos(){
         sphere.translateXProperty().set(pos.getX());
         sphere.translateYProperty().set(pos.getY());
         sphere.translateZProperty().set(pos.getZ());
     }
 
+    /**
+     * updates the vel, and pos of the object scaled by the timeStep
+     * @param dt timeStep
+     */
     public void update(double dt){
         vel = vel.add(new Vector(force.getX()/mass, force.getY()/mass, force.getZ()/mass), dt);
         pos = pos.add(vel, dt);
@@ -42,10 +62,17 @@ public class Body {
         sphere.translateZProperty().set(pos.getZ());
     }
 
+    /**
+     * resets the force acting on the object
+     */
     public void resetForce(){
         this.force = new Vector(0,0,0);
     }
 
+    /**
+     * Adds the force between this body and body b to the total force acting on the body
+     * @param b a body that is acting upon this body
+     */
     public void addForce(Body b){
         Body a = this;
         double EPS = 3E4;

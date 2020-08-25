@@ -1,3 +1,10 @@
+/*
+This file is no longer used
+This file was used before the 3D version
+was created
+I have not deleted it for future use
+ */
+
 public class OldBody {
     //region InstanceVars
     private static final double G = 6.673e-11;
@@ -89,3 +96,15 @@ public class OldBody {
     }
     //endregion
 }
+
+/* has everything to size
+Sun 1.989e30 696.34e5 0 0 0 5.89e9 0 0
+Mercury 0.330e24 2.439e6 5.79e10 0 0 0 0 4.74e4
+Venus 4.87e24 6.052e6 1.0816e11 0 0 0 0 3.5e4
+Earth 5.97e24 6.378e6 1.496e11 0 0 0 0 2.98e4
+Mars 0.642e24 3.397e6 2.2793664e11 0 0 0 0 2.41e4
+Jupiter 1898e24 7.1492e7 7.78369e11 0 0 0 0 1.31e4
+Saturn 568e24 6.0268e7 1.427034e12 0 0 0 0 9.7e3
+Uranus 86.8e24 2.5559e7 2.870658186e12 0 0 0 0 6.8e3
+Neptune 102e24 2.4766e7 4.496976e12 0 0 0 0 5.4e3
+ */

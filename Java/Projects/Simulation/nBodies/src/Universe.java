@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.beans.property.DoubleProperty;
@@ -21,20 +22,23 @@ import javafx.scene.transform.Transform;
 import javafx.scene.transform.Translate;
 import javafx.stage.Stage;
 
-// BlackHole 20.0e30 300e5 0 5.000000e12 0 0 0 0
+/*
+BlackHole 20.0e30 300e5 0 5.000000e12 0 0 0 0
+add the line above to the 'Bodies' file to simulate a very dense object pulling the entire solar system
+*/
 
-// File format: (double)mass (double)radius (double)startingX (double)startingY (double)startingZ (double)startingXV (double)startingYV (double)startingZV
+/*
+File format: (double)mass (double)radius (double)startingX (double)startingY (double)startingZ (double)startingXV (double)startingYV (double)startingZV  (how to add a new body to the file)
+the format to add a new body to the Bodies file
+ */
 
-/* has everything to size
-Sun 1.989e30 696.34e5 0 0 0 5.89e9 0 0
-Mercury 0.330e24 2.439e6 5.79e10 0 0 0 0 4.74e4
-Venus 4.87e24 6.052e6 1.0816e11 0 0 0 0 3.5e4
-Earth 5.97e24 6.378e6 1.496e11 0 0 0 0 2.98e4
-Mars 0.642e24 3.397e6 2.2793664e11 0 0 0 0 2.41e4
-Jupiter 1898e24 7.1492e7 7.78369e11 0 0 0 0 1.31e4
-Saturn 568e24 6.0268e7 1.427034e12 0 0 0 0 9.7e3
-Uranus 86.8e24 2.5559e7 2.870658186e12 0 0 0 0 6.8e3
-Neptune 102e24 2.4766e7 4.496976e12 0 0 0 0 5.4e3
+/*
+Controls:
+Shift: Freezes\\unfreezes the simulation
+WASD: pan around the space
+Space: changes the focus of the camera to different planets and resets the view
+Mouse: rotates the camera
+Scroll: zooms in and out
  */
 
 public class Universe extends Application{
@@ -70,10 +74,12 @@ public class Universe extends Application{
     //region MiscVars
     private ArrayList<Body> bodies = new ArrayList<>();//Stores all of the Body objects that keep track of the pos, vel, and acc of a particular body
     private boolean pauseTimer = false;//Keeps track if the simulation is paused or not
+    private int timeStep = 10000;//How fast the simulation runs (a timeStep of 1 is real time)
     //endregion
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+        System.out.println("Controls:\nShift: Freezes\\unfreezes the simulation\nWASD: pan around the space\nSpace: changes the focus of the camera to different planets and resets the view\nMouse: rotates the camera\nScroll: zooms in and out");
 
         //region Prepares the Bodies and the Universe
         prepareBodies();
@@ -134,7 +140,6 @@ public class Universe extends Application{
                     break;
                 case SHIFT:
                     pauseTimer = !pauseTimer;
-                    System.out.println(pauseTimer);
                     break;
             }
         });//Pans the universe based on keyboard input
@@ -207,7 +212,7 @@ public class Universe extends Application{
     private void prepareBodies() throws FileNotFoundException {
         Scanner file = new Scanner(new File("src\\Bodies"));
 
-        /*
+        /* Creates n random bodies but must comment out the file in order to work
         for (int i = 0; i < 500; i++) {
             bodies.add(new Body("",Math.random()*10000, Math.random()*100, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()*100, Math.random()*100, Math.random()*100, new Sphere()));
         }//Creates n number of random bodies
@@ -243,7 +248,7 @@ public class Universe extends Application{
                                 a.addForce(b);
                             }
                         }
-                        a.update(100000);//Inputs the step timer (a value of 1 is real time)
+                        a.update(timeStep);//Inputs the step timer (a value of 1 is real time)
                     }//Updates the forces and position of every body in the simulation
 
                     for (int i = 0; i < bodies.size(); i++) {

@@ -18,18 +18,40 @@ public class Vector {
     //endregion
 
     //region Vector Methods
+
+    /**
+     * adds two vectors together
+     * @param v the vector to be added
+     * @param dt scalar
+     * @return the resultant vector
+     */
     public Vector add(Vector v, double dt){
         return new Vector(this.getX()+v.getX()*dt, this.getY()+v.getY()*dt, this.getZ()+v.getZ()*dt);
     }
 
+    /**
+     * adds two vectors together
+     * @param v the vector to be added
+     * @return the resultant vector
+     */
     public Vector add(Vector v){
         return new Vector(this.getX()+v.getX(), this.getY()+v.getY(), this.getZ()+v.getZ());
     }
 
+    /**
+     * subtracts two vectors
+     * @param v the vector to be subtracted
+     * @return the resultant vector
+     */
     public Vector diff(Vector v){
         return new Vector(this.getX()-v.getX(), this.getY()-v.getY(), this.getZ()-v.getZ());
     }
 
+    /**
+     * divides the vector by a scalar
+     * @param d scalar
+     * @return the resultant vector
+     */
     public Vector div(double d){
         return new Vector(this.getX()/d, this.getY()/d, this.getZ()/d);
     }
