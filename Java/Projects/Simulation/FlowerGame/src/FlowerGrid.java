@@ -77,14 +77,14 @@ public class FlowerGrid {
                 if (flowers[row][col] > 0) {
                     if (connectedFlowers(row, col) < 2 || connectedFlowers(row, col) > 3) {
                         temp[row][col] = -1;
-                        //temp[row][col] = 0;
+                        temp[row][col] = 0;
                     } else if (connectedFlowers(row, col) <= 3) {
                         temp[row][col] = 1;
                     }
                 }
                 else if (flowers[row][col] <= 0 && connectedFlowers(row, col) == 3) {
                     temp[row][col] = 2;
-                    //temp[row][col] = 1;
+                    temp[row][col] = 1;
                 }
                 else {
                     if(flowers[row][col] == -1){

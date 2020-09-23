@@ -24,6 +24,7 @@ import javafx.stage.Stage;
 
 /*
 BlackHole 20.0e30 300e5 0 5.000000e12 0 0 0 0
+BlackHole 20.0e30 700e5 0 5.0e12 0 0 0 0
 add the line above to the 'Bodies' file to simulate a very dense object pulling the entire solar system
 */
 
@@ -74,7 +75,7 @@ public class Universe extends Application{
     //region MiscVars
     private ArrayList<Body> bodies = new ArrayList<>();//Stores all of the Body objects that keep track of the pos, vel, and acc of a particular body
     private boolean pauseTimer = false;//Keeps track if the simulation is paused or not
-    private int timeStep = 10000;//How fast the simulation runs (a timeStep of 1 is real time)
+    private int timeStep = 100000;//How fast the simulation runs (a timeStep of 1 is real time)
     //endregion
 
     @Override

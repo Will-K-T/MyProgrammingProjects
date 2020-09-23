@@ -1,7 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e15dd577-ef3e-47a5-86a0-09728e316b86" name="Default Changelist" comment="" />
+    <list default="true" id="e15dd577-ef3e-47a5-86a0-09728e316b86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/.idea/USACOFridayTheThirteen.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/USACOFridayTheThirteen.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/USACOFridayTheThirteen.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/USACOFridayTheThirteen.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/USACOFridayTheThirteen.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/USACOFridayTheThirteen.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/beads.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/beads.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOBreakTheNecklace/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOFridayTheThirteen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOFridayTheThirteen/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/.idea/USACOGreedGiftGivers.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/USACOGreedGiftGivers.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/USACOGreedGiftGivers.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/USACOGreedGiftGivers.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/USACOGreedGiftGivers.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/USACOGreedGiftGivers.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/gift1.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/cmake-build-debug/gift1.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOGreedGiftGivers/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/.idea/USACOYourRideIsHere.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/embed.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/intermediate.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/manifest.rc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/manifest.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/USACOYourRideIsHere.dir/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/USACOYourRideIsHere.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/USACOYourRideIsHere.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/USACOYourRideIsHere.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/USACOYourRideIsHere.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/ride.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/cmake-build-debug/ride.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../C++/C++ Projects/USACOYourRideIsHere/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/breadth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/breadth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/depth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/depth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/maze.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/out/production/MazeSolver/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/out/production/MazeSolver/Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/src/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Python/Projects/Sudoku/Board.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Python/Projects/Sudoku/Board.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Python/Projects/Sudoku/Sudoku.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Python/Projects/Sudoku/Sudoku.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +194,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574647217049" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Libs/stdlib.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -49,7 +227,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -68,7 +246,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -87,7 +267,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="279" y="71" key="SettingsEditor" timestamp="1596240219978">

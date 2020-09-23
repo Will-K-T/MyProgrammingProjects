@@ -5,13 +5,13 @@ public class Runner {
         //numberOfBoxes * sqrt(gridSize) + ((numberOfBoxes+1))
         //111, 100
         Maze test;
-        Picture pic = new Picture(501, 501);
+        Picture pic = new Picture(901, 901);
         while(true) {
-            test = new Maze(1001, 1001, 16, pic);
+            test = new Maze(901, 901, 64, pic);
 
-            new SolverDepth(test.getMaze(), 16);
+            new SolverDepth(test.getMaze(), 64);
 
-            new SolverBreadth(test.getMaze(), 16);
+            new SolverBreadth(test.getMaze(), 64);
 
             pic = clearPic(pic);
         }
