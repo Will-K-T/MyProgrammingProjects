@@ -5,7 +5,7 @@
 using std::cout; //Only lets me use cout with std::
 using std::cin;
 
-int testFunction(int, int); //Declares a function with 2 int parameters
+int testFunction(int, int); //Declares a function with 2 int paratypeOne
 
 int main(){
     int slices;

@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8304a54-3d70-46d7-b9ec-ead6f954d55e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CSUILPractice/Speedrub/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../CSUILPractice/Speedrub/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/breadth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/breadth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/depth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/depth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/maze.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/out/production/MazeSolver/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/out/production/MazeSolver/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/MazeSolver/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/MazeSolver/src/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/fireSim/out/production/fireSim/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fireSim/out/production/fireSim/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/fireSim/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fireSim/src/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/fractals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fractals/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/fractals/out/production/Fractals/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fractals/out/production/Fractals/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../InClass/fractals/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../InClass/fractals/src/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlowerGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FlowerGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlowerGame/out/production/FlowerGame/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../FlowerGame/out/production/FlowerGame/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FlowerGame/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FlowerGame/src/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/breadth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/breadth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/depth.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/depth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/maze.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../../HS-CS3/MazeSolver/maze.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +34,13 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
   <component name="ProjectId" id="1X0dFyi13Z4uqCc4F0wt9Je0hT6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579191996023" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Searching/BinaryTreeStuff" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -109,79 +97,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>visualSine</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
