@@ -1,5 +1,5 @@
 const int sensorPin = A0;
-const float baselineTemp = 25.0;
+const float baselineTemp = 22.0;
 
 void setup() {
   Serial.begin(9600);
@@ -30,21 +30,21 @@ void loop() {
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     digitalWrite(9, HIGH);
-  }else if(temp <= baselineTemp-4 && temp > baselineTemp-6){
+  }else if(temp <= baselineTemp-2 && temp > baselineTemp-3){
     digitalWrite(2, LOW);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
     digitalWrite(7, HIGH);
     digitalWrite(8, HIGH);
     digitalWrite(9, LOW);
-  }else if(temp <= baselineTemp-2 && temp > baselineTemp-4){
+  }else if(temp <= baselineTemp-1 && temp > baselineTemp-2){
     digitalWrite(2, LOW);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
     digitalWrite(7, HIGH);
     digitalWrite(8, LOW);
     digitalWrite(9, LOW);
-  }else if(temp > baselineTemp-2 && temp < baselineTemp+1){
+  }else if(temp > baselineTemp-1 && temp < baselineTemp+1){
     digitalWrite(2, LOW);
     digitalWrite(3, LOW);
     digitalWrite(4, LOW);
