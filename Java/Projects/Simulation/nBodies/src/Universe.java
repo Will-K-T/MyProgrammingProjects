@@ -213,12 +213,12 @@ public class Universe extends Application{
     private void prepareBodies() throws FileNotFoundException {
         Scanner file = new Scanner(new File("src\\Bodies"));
 
-        /* Creates n random bodies but must comment out the file in order to work
-        for (int i = 0; i < 500; i++) {
-            bodies.add(new Body("",Math.random()*10000, Math.random()*100, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()*100, Math.random()*100, Math.random()*100, new Sphere()));
+        /*
+        //Creates n random bodies but must comment out the file in order to work
+        for (int i = 0; i < 10; i++) {
+            bodies.add(new Body("",Math.random()*10000, Math.random()*1000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()>.5 ? Math.random()*10000 : Math.random()*-10000, Math.random()*100, Math.random()*100, Math.random()*100, new Sphere()));
         }//Creates n number of random bodies
         */
-
         while(file.hasNextLine()){
             bodies.add(new Body(file.next(), file.nextDouble(), file.nextDouble() * 500, file.nextDouble(), file.nextDouble(), file.nextDouble(), file.nextDouble(), file.nextDouble(), file.nextDouble() * 1e6, new Sphere()));
         }//Creates bodies by using a file

@@ -1,3 +1,0 @@
-C:/Users/21wil/Documents/thisneedstowork/C++ Projects/Testing/cmake-build-debug/CMakeFiles/Testing.dir
-C:/Users/21wil/Documents/thisneedstowork/C++ Projects/Testing/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/21wil/Documents/thisneedstowork/C++ Projects/Testing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

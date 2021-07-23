@@ -25,7 +25,7 @@ let prevSliderVal;
 
 let numOfParticles = 1000;
 
-let inc = 0.1;
+let inc = 0.2;
 
 function setup() {
   createCanvas(400, 400);
@@ -43,8 +43,8 @@ function setup() {
   slider = createSlider(0, 0.004, 0.001, 0.0001);
   prevSliderVal = slider.value();
 
-  //oppSlider = createSlider(0, 255, 5, 1);
-  //sizeSlider = createSlider(1, 100, 5, 1);
+  oppSlider = createSlider(0, 255, 5, 1);
+  sizeSlider = createSlider(1, 100, 5, 1);
   particleSize = 1;
 
   particles = [];
@@ -63,15 +63,15 @@ function setup() {
 function draw() {
   background(255, 255, 255);
 
-  // noiseOneD(changeXOff);
+  //noiseOneD(changeXOff);
 
-  // noiseTwoD(changeXOff, changeYOff);
+  noiseTwoD(changeXOff, changeYOff);
 
-  // noiseThreeD(changeXOff, changeYOff, changeZOff);
+  //noiseThreeD(changeXOff, changeYOff, changeZOff);
 
-  // noNoiseRandom();
+  //noNoiseRandom();
 
-  flowField(changeXOff, changeYOff);
+  //flowField(changeXOff, changeYOff);
 
   changeXOff += slider.value();
   // changeXOff += 1;
@@ -84,8 +84,8 @@ function draw() {
     background(255, 255, 255);
   }
 
-  // oppacity = oppSlider.value();
-  // particleSize = sizeSlider.value();
+  oppacity = oppSlider.value();
+  particleSize = sizeSlider.value();
 
   // noLoop();
 }
@@ -152,18 +152,27 @@ function noiseThreeD(startXOff, startYOff, startZOff) {
 }
 
 function noiseTwoD(startXOff, startYOff) {
+	let avg = 1;
+	let cnt = 0;
   fill(0, 0, 0);
   let yOff = startYOff;
 
   for (let i = 0; i < height / sq; i++) {
     let xOff = startXOff;
     for (let j = 0; j < width / sq; j++) {
+		cnt++;
+		avg += noise(xOff, yOff) * 255;
       fill(noise(xOff, yOff) * 255);
+	  if(noise(xOff, yOff) * 255 < 1){
+		  console.log("less than 1");
+	  }
+	  //console.log(noise(xOff, yOff) * 255);
       rect(j * sq, i * sq, sq, sq);
       xOff += inc;
     }
     yOff += inc;
   }
+  //console.log(avg/cnt);
 }
 
 function noiseOneD(startXOff) {
