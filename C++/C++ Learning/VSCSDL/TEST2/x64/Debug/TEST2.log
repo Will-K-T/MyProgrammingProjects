@@ -1,4 +1,2 @@
-﻿  main.cpp
-C:\Users\21wil\Documents\GitHub\MyProgrammingProjects\C++\C++ Learning\VSCSDL\01_hello_SDL\main.cpp(201,42): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\21wil\Documents\GitHub\MyProgrammingProjects\C++\C++ Learning\VSCSDL\01_hello_SDL\main.cpp(230,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+﻿  Particle.cpp
   TEST2.vcxproj -> C:\Users\21wil\Documents\GitHub\MyProgrammingProjects\C++\C++ Learning\VSCSDL\TEST2\x64\Debug\TEST2.exe

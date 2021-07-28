@@ -6,6 +6,8 @@
 #include <iostream>
 #include <stdio.h>
 
+///////// how to draw something on pixels with floating point coordinates //////////
+
 //Screen dimension constants
 //const int SCREEN_WIDTH = 640;
 //const int SCREEN_HEIGHT = 480;
@@ -104,7 +106,7 @@ int main(int argc, char* args[])
                 //Renders the renderer to the screen
                 SDL_RenderPresent(gRenderer);
 
-                SDL_Delay(1);
+                SDL_Delay(15);
             }
         }
     }
@@ -157,10 +159,9 @@ bool loadMedia()
 
 void loop() {
     //drawPerlinNoise2D();
-    //drawVectorField();
-    //updateVectorField();
-    //updateParticle();
-    SDL_RenderFilledCircle(gRenderer, 960, 540, 50);
+    drawVectorField();
+    updateVectorField();
+    updateParticle();
 }
 
 void close()

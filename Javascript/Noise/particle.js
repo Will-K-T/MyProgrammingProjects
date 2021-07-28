@@ -34,6 +34,7 @@ class Particle {
   display() {
     fill(this.col);
     noStroke();
+	console.log(this.pos.x, this.pos.y);
     circle(this.pos.x, this.pos.y, this.size);
   }
 }

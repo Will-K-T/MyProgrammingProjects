@@ -65,13 +65,13 @@ function draw() {
 
   //noiseOneD(changeXOff);
 
-  noiseTwoD(changeXOff, changeYOff);
+  //noiseTwoD(changeXOff, changeYOff);
 
   //noiseThreeD(changeXOff, changeYOff, changeZOff);
 
   //noNoiseRandom();
 
-  //flowField(changeXOff, changeYOff);
+  flowField(changeXOff, changeYOff);
 
   changeXOff += slider.value();
   // changeXOff += 1;

@@ -25,7 +25,7 @@ void Particle::move(int deltaX, int deltaY) {
 void Particle::move(float theta) {
     /*x = static_cast<int>(x + speed * cos(theta)+SCREEN_WIDTH)%SCREEN_WIDTH;
     y = static_cast<int>(y + speed * -1*sin(theta)+SCREEN_HEIGHT)%SCREEN_HEIGHT;*/
-    std::cout << "data: " << x << " " << speed << " " << cos(theta) << std::endl;
+    std::cout << "data: " << x << " " << speed*cos(theta) << std::endl;
     x = lround(x + speed * cos(theta)+SCREEN_WIDTH)%SCREEN_WIDTH;
     y = lround(y + speed * -1*sin(theta)+SCREEN_HEIGHT)%SCREEN_HEIGHT;
 }
